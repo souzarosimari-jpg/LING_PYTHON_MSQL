@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Clientes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1> Cadastro de Clientes</h1>
+  <form action="/cadastrar" method="POST">
+    <nav class="label">
+      <label for="">CPF</label> <br />
+      <input type="text" name="cpf" id="c_cpf" required>
+      <br />
+      <label for="">Primeiro Nome</label> <br />
+      <input type="text" name="primeiro_nome" id="c_primeiro_nome" required>
+      <br />
+      <label for="" font-align="center">Sobrenome</label> <br />
+      <input type="text" name="sobrenome" id="c_sobrenome" required>
+      <br />
+      <label for="">Idade</label> <br />
+      <input type="number" name="idade" step="1" id="c_idade" required>
+    </nav>
+    <br />
+    <button class="button" type="submit">Cadastrar</button>
+  </form>
+
+</body>
+
+</html>
